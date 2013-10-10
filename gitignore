@@ -1,4 +1,4 @@
-# Build Directories #
+# Build #
 ###################
 target/
 /build/
@@ -11,6 +11,11 @@ target/
 *.exe
 *.o
 *.so
+
+# Compiled docs #
+#################
+_gh_pages
+_site
 
 # Packages #
 ############
@@ -25,13 +30,14 @@ target/
 *.tar
 *.zip
 
-# Logs and databases #
+# Logs and DB #
 ######################
 *.log
 *.sql
 *.sqlite
+*.err
 
-# OS generated files #
+# OS #
 ######################
 .DS_Store*
 ehthumbs.db
@@ -39,3 +45,36 @@ Icon?
 Thumbs.db
 ehthumbs.db
 Icon?
+
+# Editor #
+####################
+.vi
+._*
+Thumbs.db
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+nbproject
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.komodotools
+.idea
+node_modules
+
+# Tools #
+########################
+validation-status.json
+validation-report.json
+
+# Version control #
+###################
+.hg
+.svn
+.CVS
+
+# Developer (human) #
+#####################
+.diff
