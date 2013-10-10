@@ -68,6 +68,7 @@ node_modules
 ########################
 validation-status.json
 validation-report.json
+.sass*
 
 # Version control #
 ###################
